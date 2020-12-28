@@ -1,0 +1,12 @@
+Data count = 1
+
+Property required Function clo
+Property required Number countB
+
+Method increment () {
+   this.count++
+}
+
+Computed go(){
+return 58
+}

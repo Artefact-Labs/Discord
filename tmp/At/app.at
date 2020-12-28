@@ -1,0 +1,77 @@
+
+Rectangle{ 
+ 
+ 
+  id: "rec0",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  color: "#202225",
+  child: [
+    Item{
+     
+      id: "titleBar",
+      height: 20,
+      y: 0,
+      anchors.left: 0,
+      anchors.right: 0,
+      child: [
+        Text{
+         
+          id: "texttitleBar1",
+          width: 100,
+          x: 5,
+          value: "Discord",
+          anchors.top: 0,
+          anchors.bottom: 0,
+          color: "#797979",
+          fontSize: 16,
+          fontFamily: "Century Gothic",
+          font.bold: true,
+          verticalAlign: "center"
+        }
+      ]
+    },
+    Item{
+     
+      id: "leftBar",
+      width: 70,
+      x: 0,
+      anchors.top: 18,
+      anchors.bottom: 0,
+      child: [
+        Object{
+         
+          id: "leftbarleftBar1",
+          name: "LeftBar",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0
+        }
+      ]
+    },
+    Item{
+     
+      id: "mainContainer",
+      anchors.right: 0,
+      anchors.left: 75,
+      anchors.top: 25,
+      anchors.bottom: 0,
+      child: [
+        Object{
+         
+          id: "maincontentmainContainer1",
+          name: "mainContent",
+          anchors.right: -8,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          modelFor: "20"
+        }
+      ]
+    }
+  ]
+}, 
+  

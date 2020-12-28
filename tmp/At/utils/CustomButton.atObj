@@ -1,0 +1,7 @@
+Property icon = "ion-ios-alert"
+Property size = 30
+Property tooltip = "yo"
+Property color = "gray"
+Property Function clo
+
+Data hovered = false

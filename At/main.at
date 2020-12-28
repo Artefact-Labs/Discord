@@ -1,0 +1,14 @@
+
+Object{ 
+ 
+ 
+  "bind_countB": "<#counter#>",
+  id: "page1",
+  name: "app",
+  "onClo": "add",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0
+}, 
+  

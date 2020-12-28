@@ -1,0 +1,50 @@
+
+Item{
+  id: "NaN",
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    ScrollArea{
+      id: "scrollareaNaN1",
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      color: "transparent",
+      styleMode: 4,
+      barColor: "#49484b",
+      barBackgroundColor: "#a6a6ac",
+      child: [
+        Column{
+          id: "columnscrollareaNaN11",
+          width: "auto",
+          height: "auto",
+          x: 0,
+          y: 0,
+          child: [
+            Object{
+              id: "topbuttoncolumnscrollareaNaN111",
+              width: 75,
+              height: 70,
+              name: "TopButton"
+            },
+            Object{
+              id: "groupbuttoncolumnscrollareaNaN113",
+              width: 75,
+              height: 70,
+              name: "GroupButton",
+              modelFor: "<#20#>",
+              bind_name: "<#'Group' + index#>",
+              bind_source: "<#'https://picsum.photos/200?blur=1&random=' + index#>"
+            }
+          ]
+        }
+      ],
+      overflowY: "scroll",
+      barWidth: 3,
+      overflowX: "hidden"
+    }
+  ]
+},

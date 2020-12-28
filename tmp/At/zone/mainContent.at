@@ -1,0 +1,345 @@
+
+Rectangle{ 
+ 
+ 
+  child: [
+    Rectangle{
+     
+      id: "rectanglerec1",
+      anchors.right: 0,
+      anchors.left: 240,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      color: "#36393f"
+    },
+    Card{
+     
+      id: "cardrec3",
+      height: 48,
+      y: 0,
+      anchors.left: 0,
+      anchors.right: 0,
+      color: "#2f3136",
+      child: [
+        Rectangle{
+         
+          id: "rectanglerec11",
+          anchors.right: 0,
+          anchors.left: 240,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          color: "#36393f",
+          radius: 0
+        },
+        Rectangle{
+         
+          id: "rectanglecardrec33",
+          width: 220,
+          height: 28,
+          x: 10,
+          anchors.verticalCenter: 0,
+          color: "#202225",
+          radius: 4,
+          child: [
+            Text{
+             
+              id: "textrectanglecardrec331",
+              anchors.right: 8,
+              anchors.left: 8,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              value: "Find or start a conversation",
+              verticalAlign: "center",
+              color: "#888793",
+              fontSize: 13
+            },
+            MouseArea{
+             
+              id: "mousearearectanglecardrec333",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              cursor: "pointer"
+            }
+          ]
+        }
+      ],
+      radius: 8,
+      elevation: 1
+    },
+    Item{
+     
+      id: "itemrec5",
+      width: 240,
+      anchors.top: 50,
+      anchors.bottom: 0,
+      anchors.left: 0,
+      child: [
+        Rectangle{
+         
+          id: "rectangleitemrec51",
+          height: 52,
+          anchors.bottom: 0,
+          anchors.left: 0,
+          anchors.right: 0,
+          color: "#292b2f",
+          child: [
+            Row{
+             
+              id: "rowrectangleitemrec511",
+              height: "auto",
+              anchors.left: 10,
+              anchors.right: 10,
+              anchors.verticalCenter: 0,
+              child: [
+                Item{
+                 
+                  id: "itemrowrectangleitemrec5111",
+                  width: 32,
+                  height: 32,
+                  child: [
+                    Rectangle{
+                     
+                      id: "rectangleitemrowrectangleitemrec51111",
+                      anchors.right: 0,
+                      anchors.left: 0,
+                      anchors.top: 0,
+                      anchors.bottom: 0,
+                      radius: 16,
+                      color: "#827af8",
+                      child: [
+                        NetworkImage{
+                         
+                          id: "networkimagerectangleitemrowrectangleitemrec511111",
+                          anchors.right: 0,
+                          anchors.left: 0,
+                          anchors.top: 0,
+                          anchors.bottom: 0,
+                          radius: 16,
+                          source: "https://picsum.photos/200"
+                        },
+                        Rectangle{
+                         
+                          id: "rectanglerectangleitemrowrectangleitemrec511113",
+                          width: 16,
+                          height: 16,
+                          anchors.right: -3,
+                          anchors.bottom: -3,
+                          color: "#79b583",
+                          border: 3,
+                          borderColor: "#292b2f",
+                          radius: 8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                Column{
+                 
+                  id: "columnrowrectangleitemrec5113",
+                  width: "auto",
+                  height: "auto",
+                  child: [
+                    Text{
+                     
+                      id: "textcolumnrowrectangleitemrec51131",
+                      width: 80,
+                      height: "auto",
+                      value: "DannickStark",
+                      color: "#ffffff",
+                      font.bold: true,
+                      fontSize: 13,
+                      textOverflow: "ellipsis",
+                      textO: true
+                    },
+                    Text{
+                     
+                      id: "textcolumnrowrectangleitemrec511312",
+                      width: "auto",
+                      height: "auto",
+                      value: "#2455",
+                      color: "#bcbcbc",
+                      fontSize: 13
+                    }
+                  ]
+                },
+                Object{
+                 
+                  id: "custombuttonrowrectangleitemrec5115",
+                  width: 32,
+                  height: 32,
+                  name: "CustomButton",
+                  "bind_icon": "ion-md-mic",
+                  "bind_size": "<#20#>",
+                  "bind_tooltip": "Mute"
+                },
+                Object{
+                 
+                  id: "custombuttonrowrectangleitemrec51154",
+                  width: 32,
+                  height: 32,
+                  name: "CustomButton",
+                  "bind_icon": "ion-md-headset",
+                  "bind_size": "<#20#>",
+                  "bind_tooltip": "Deafen"
+                },
+                Object{
+                 
+                  id: "custombuttonrowrectangleitemrec51155",
+                  width: 32,
+                  height: 32,
+                  name: "CustomButton",
+                  "bind_icon": "ion-md-settings",
+                  "bind_size": "<#20#>",
+                  "bind_tooltip": "User Settings"
+                }
+              ],
+              spacing: "space-between"
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemitemrec53",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 52,
+          child: [
+            Column{
+             
+              id: "columnitemitemrec531",
+              height: 110,
+              anchors.right: 10,
+              anchors.left: 10,
+              anchors.top: 10,
+              child: [
+                Button{
+                 
+                  id: "buttoncolumnitemitemrec5311",
+                  width: 100,
+                  height: 42,
+                  anchors.right: 0,
+                  anchors.left: 0,
+                  backgroundColor: "#797f8b",
+                  icon: "ion-md-hand",
+                  hasIcon: true,
+                  iconLeft: false,
+                  color: "#ffffff",
+                  dark: true,
+                  value: "Friends    ",
+                  flat: true,
+                  elevation: 0
+                },
+                Button{
+                 
+                  id: "buttoncolumnitemitemrec53112",
+                  width: 100,
+                  height: 42,
+                  anchors.right: 0,
+                  anchors.left: 0,
+                  backgroundColor: "#797f8b",
+                  icon: "ion-ios-bonfire",
+                  hasIcon: true,
+                  iconLeft: false,
+                  color: "#ffffff",
+                  dark: true,
+                  value: "Nitro    ",
+                  flat: true,
+                  elevation: 0
+                },
+                Item{
+                 
+                  id: "itemcolumnitemitemrec5315",
+                  width: 100,
+                  height: "auto",
+                  anchors.left: 0,
+                  anchors.right: 0,
+                  child: [
+                    Text{
+                     
+                      id: "textrectanglecardrec3311",
+                      anchors.left: 8,
+                      value: "DIRECT MESSAGES",
+                      verticalAlign: "center",
+                      color: "#888793",
+                      fontSize: 11,
+                      anchors.verticalCenter: 0
+                    },
+                    Icon{
+                     
+                      id: "iconitemcolumnitemitemrec53153",
+                      width: 8,
+                      height: 8,
+                      anchors.right: 10,
+                      anchors.verticalCenter: 0,
+                      iconName: "ion-md-add",
+                      color: "#888793"
+                    },
+                    MouseArea{
+                     
+                      id: "mouseareaitemcolumnitemitemrec53155",
+                      anchors.right: 0,
+                      anchors.left: 0,
+                      anchors.top: 0,
+                      anchors.bottom: 0,
+                      cursor: "pointer"
+                    }
+                  ]
+                }
+              ],
+              spacing: "space-between"
+            },
+            ScrollArea{
+             
+              id: "scrollareaitemitemrec533",
+              anchors.right: 10,
+              anchors.left: 10,
+              anchors.top: 140,
+              anchors.bottom: 10,
+              color: "transparent",
+              styleMode: 4,
+              barWidth: 3,
+              barColor: "#5b5b5b",
+              barBackgroundColor: "#949494",
+              overflowY: "scroll",
+              overflowX: "hidden",
+              child: [
+                Column{
+                 
+                  id: "columnscrollareaitemitemrec5331",
+                  width: "auto",
+                  height: "auto",
+                  x: 0,
+                  y: 0,
+                  child: [
+                    Object{
+                     
+                      id: "leeritemcolumnscrollareaitemitemrec53311",
+                      width: 200,
+                      height: 50,
+                      name: "LeerItem",
+                      modelFor: "<#40#>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  color: "#2f3136",
+  id: "rec",
+  onClicked: "increment",
+  radius: 8,
+  borderColor: "#0eeabb",
+  border: 0,
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0
+}, 
+  

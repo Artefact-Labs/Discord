@@ -1,0 +1,45 @@
+
+Item{ 
+ 
+ 
+  id: "item0",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Row{
+     
+      id: "rowitem01",
+      width: 100,
+      x: 5,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      child: [
+        Text{
+         
+          id: "title",
+          width: 100,
+          height: 100,
+          value: "DISCORD",
+          verticalAlign: "center",
+          anchors.top: 0,
+          anchors.bottom: 0,
+          color: "#898999",
+          font.bold: true,
+          fontFamily: "Century Gothic",
+          fontSize: 16
+        }
+      ]
+    },
+    Row{
+     
+      id: "rowitem03",
+      width: 100,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      anchors.right: 0
+    }
+  ]
+}, 
+  

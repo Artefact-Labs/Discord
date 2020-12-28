@@ -1,0 +1,63 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Rectangle{
+     
+      id: "rectangleNaN1",
+      anchors.right: 4,
+      anchors.left: 4,
+      anchors.top: 4,
+      anchors.bottom: 4,
+      color: "#6c6c6c",
+      radius: 4,
+      opacity: 0.5,
+      visible: "<#hovered#>"
+    },
+    Icon{
+     
+      id: "iconNaN3",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      iconName: "<#icon#>",
+      size: "<#size#>",
+      color: "<#color#>"
+    },
+    MouseArea{
+     
+      id: "mouseareaNaN5",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      cursor: "pointer",
+      tooltipLabel: "<#tooltip#>",
+      tooltipLength: "small",
+      event: [
+        MouseEvent{
+         
+          section: "mouse",
+          name: "mouseover",
+          action: "<#hovered = true#>"
+        },
+        MouseEvent{
+         
+          section: "mouse",
+          name: "mouseout",
+          action: "<#hovered = false#>"
+        }
+      ],
+      tooltipVisible: false,
+      tooltipPosition: "up"
+    }
+  ]
+}, 
+  

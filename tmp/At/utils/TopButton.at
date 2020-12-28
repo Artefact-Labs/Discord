@@ -1,0 +1,62 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  child: [
+    Rectangle{
+     
+      id: "rec011111",
+      anchors.right: 10,
+      anchors.left: 14,
+      anchors.top: 10,
+      anchors.bottom: 10,
+      child: [
+        Image{
+         
+          id: "imagerec03",
+          source: "Resources/logo.png",
+          anchors.right: 10,
+          anchors.left: 10,
+          anchors.top: 10,
+          anchors.bottom: 10
+        },
+        MouseArea{
+         
+          id: "mousearearec03",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          cursor: "pointer"
+        }
+      ],
+      radius: 12,
+      color: "#948ce7"
+    },
+    Rectangle{
+     
+      id: "rectangleNaN3",
+      width: 8,
+      anchors.left: -4,
+      anchors.top: 12,
+      anchors.bottom: 12,
+      radius: 4
+    },
+    Rectangle{
+     
+      id: "rectangleNaN5",
+      height: 1,
+      anchors.bottom: 0,
+      anchors.left: 24,
+      anchors.right: 24,
+      color: "gray",
+      opacity: 0.6
+    }
+  ],
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0
+}, 
+  

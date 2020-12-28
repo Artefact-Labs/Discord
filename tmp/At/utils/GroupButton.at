@@ -1,0 +1,57 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  child: [
+    Rectangle{
+     
+      id: "rec011111",
+      anchors.right: 10,
+      anchors.left: 14,
+      anchors.top: 10,
+      anchors.bottom: 10,
+      child: [
+        NetworkImage{
+         
+          id: "imagerec03",
+          source: "<#source#>",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          radius: "<#radius#>"
+        }
+      ],
+      radius: "<#radius#>",
+      color: "#948ce7"
+    },
+    Rectangle{
+     
+      id: "rectangleNaN3",
+      width: 8,
+      anchors.left: -4,
+      radius: 4,
+      height: 8,
+      anchors.verticalCenter: 0
+    },
+    MouseArea{
+     
+      id: "mousearearec0333333",
+      anchors.right: 1,
+      anchors.left: 1,
+      anchors.top: 1,
+      anchors.bottom: 1,
+      cursor: "pointer",
+      tooltipLabel: "<#name#>",
+      tooltipPosition: "down",
+      tooltipLength: "fit",
+      "zIndex": 100
+    }
+  ],
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0
+}, 
+  

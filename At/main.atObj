@@ -1,0 +1,2 @@
+Data counter = 150
+Method add () { this.counter = this.counter/2 }

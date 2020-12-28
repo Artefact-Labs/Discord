@@ -1,0 +1,3 @@
+Property radius = 100;
+Property source = "https://picsum.photos/200";
+Property name = "Group"

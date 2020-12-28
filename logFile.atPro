@@ -1,0 +1,383 @@
+{
+ "type": "folder",
+ "pjType": "pc - software",
+ "name": "Discord",
+ "iconA": "folderA",
+ "version": "",
+ "description": "",
+ "author": "aaa",
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "app.at",
+     "iconA": "at"
+    },
+    {
+     "type": "folder",
+     "name": "utils",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "ToolTip.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "GroupButton.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "TopButton.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "CustomButton.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "LeerItem.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "zone",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "TopBar.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "mainContent.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "LeftBar.at",
+       "iconA": "at"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": [
+    {
+     "type": "file",
+     "name": "logo.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "naruto.jpg",
+     "iconA": "jpg"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Version",
+   "iconA": "folderD",
+   "deco": "version",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Windows",
+     "iconA": "folderE",
+     "deco": "windowsOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Ubuntu",
+     "iconA": "folderE",
+     "deco": "ubuntuOs",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "MacOs",
+     "iconA": "folderE",
+     "deco": "appelOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Android",
+     "iconA": "folderE",
+     "deco": "androidOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "i-Phone",
+     "iconA": "folderE",
+     "deco": "ios",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows-Phone",
+     "iconA": "folderE",
+     "deco": "windowsPhone",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Web",
+     "iconA": "folderE",
+     "deco": "browser",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "setting": [
+  {
+   "name": "Discord"
+  }
+ ],
+ "designState": {
+  "main_at": {
+   "height": 431
+  },
+  "page1_at": {
+   "height": 431
+  },
+  "app_at": {
+   "height": 431
+  },
+  "TopBar_at": {
+   "height": 24
+  },
+  "TopButton_at": {
+   "height": 431
+  },
+  "ToolTip_at": {
+   "height": 431
+  },
+  "GroupButton_at": {
+   "height": 431
+  },
+  "mainContent_at": {
+   "height": 431
+  },
+  "LeftBar_at": {
+   "height": 431
+  },
+  "CustomButton_at": {
+   "height": 431
+  },
+  "LeerItem_at": {
+   "height": 431
+  }
+ }
+}

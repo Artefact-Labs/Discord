@@ -1,0 +1,35 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Rectangle{
+     
+      id: "rectangleNaN1",
+      width: 32,
+      height: 32,
+      x: 10,
+      color: "#36393f",
+      opacity: 0.6,
+      radius: 16,
+      anchors.verticalCenter: 0
+    },
+    Rectangle{
+     
+      id: "rectangleNaN122222",
+      height: 20,
+      color: "#36393f",
+      opacity: 0.6,
+      radius: 16,
+      anchors.verticalCenter: 0,
+      anchors.left: 50,
+      anchors.right: 0
+    }
+  ]
+}, 
+  
