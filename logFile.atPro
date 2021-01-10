@@ -14,16 +14,6 @@
    "col": "#F9B31E",
    "child": [
     {
-     "type": "file",
-     "name": "main.at",
-     "iconA": "at"
-    },
-    {
-     "type": "file",
-     "name": "app.at",
-     "iconA": "at"
-    },
-    {
      "type": "folder",
      "name": "utils",
      "iconA": "folderC",
@@ -31,7 +21,7 @@
      "child": [
       {
        "type": "file",
-       "name": "ToolTip.at",
+       "name": "CustomButton.at",
        "iconA": "at"
       },
       {
@@ -41,17 +31,17 @@
       },
       {
        "type": "file",
-       "name": "TopButton.at",
-       "iconA": "at"
-      },
-      {
-       "type": "file",
-       "name": "CustomButton.at",
-       "iconA": "at"
-      },
-      {
-       "type": "file",
        "name": "LeerItem.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "ToolTip.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "TopButton.at",
        "iconA": "at"
       }
      ]
@@ -64,7 +54,7 @@
      "child": [
       {
        "type": "file",
-       "name": "TopBar.at",
+       "name": "LeftBar.at",
        "iconA": "at"
       },
       {
@@ -74,10 +64,20 @@
       },
       {
        "type": "file",
-       "name": "LeftBar.at",
+       "name": "TopBar.at",
        "iconA": "at"
       }
      ]
+    },
+    {
+     "type": "file",
+     "name": "app.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
     }
    ]
   },
@@ -90,18 +90,6 @@
      "type": "file",
      "name": "main.js",
      "iconA": "js"
-    }
-   ]
-  },
-  {
-   "type": "folder",
-   "name": "Style",
-   "iconA": "folderB",
-   "child": [
-    {
-     "type": "file",
-     "name": "main.css",
-     "iconA": "css"
     }
    ]
   },
@@ -132,13 +120,25 @@
    "child": [
     {
      "type": "file",
-     "name": "Router.art",
+     "name": "Adder.aat",
      "child": []
     },
     {
      "type": "file",
-     "name": "Adder.aat",
+     "name": "Router.art",
      "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
     }
    ]
   },
@@ -148,87 +148,6 @@
    "iconA": "folderD",
    "deco": "version",
    "child": [
-    {
-     "type": "folder",
-     "name": "Windows",
-     "iconA": "folderE",
-     "deco": "windowsOS",
-     "child": [
-      {
-       "type": "folder",
-       "name": "At",
-       "iconA": "folderB",
-       "col": "#F9B31E",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Js",
-       "iconA": "folderB",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Style",
-       "iconA": "folderB",
-       "child": []
-      }
-     ]
-    },
-    {
-     "type": "folder",
-     "name": "Ubuntu",
-     "iconA": "folderE",
-     "deco": "ubuntuOs",
-     "child": [
-      {
-       "type": "folder",
-       "name": "At",
-       "iconA": "folderB",
-       "col": "#F9B31E",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Js",
-       "iconA": "folderB",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Style",
-       "iconA": "folderB",
-       "child": []
-      }
-     ]
-    },
-    {
-     "type": "folder",
-     "name": "MacOs",
-     "iconA": "folderE",
-     "deco": "appelOS",
-     "child": [
-      {
-       "type": "folder",
-       "name": "At",
-       "iconA": "folderB",
-       "col": "#F9B31E",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Js",
-       "iconA": "folderB",
-       "child": []
-      },
-      {
-       "type": "folder",
-       "name": "Style",
-       "iconA": "folderB",
-       "child": []
-      }
-     ]
-    },
     {
      "type": "folder",
      "name": "Android",
@@ -285,9 +204,36 @@
     },
     {
      "type": "folder",
-     "name": "Windows-Phone",
+     "name": "MacOs",
      "iconA": "folderE",
-     "deco": "windowsPhone",
+     "deco": "appelOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Ubuntu",
+     "iconA": "folderE",
+     "deco": "ubuntuOs",
      "child": [
       {
        "type": "folder",
@@ -315,6 +261,60 @@
      "name": "Web",
      "iconA": "folderE",
      "deco": "browser",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows",
+     "iconA": "folderE",
+     "deco": "windowsOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows-Phone",
+     "iconA": "folderE",
+     "deco": "windowsPhone",
      "child": [
       {
        "type": "folder",
